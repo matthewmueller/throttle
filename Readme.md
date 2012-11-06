@@ -23,7 +23,7 @@ function scroll() {
 
 ## API
 
-  ### throttle(fn, wait)
+### throttle(fn, wait)
 
   Creates and returns a new, throttled version of the passed function, that, when invoked repeatedly, will only actually call the original function at most once per every wait milliseconds.
 
