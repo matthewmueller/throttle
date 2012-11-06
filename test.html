@@ -1,0 +1,20 @@
+<html>
+<head>
+  <title>Throttle Component</title>
+  <link rel="stylesheet" href="../build/build.css">
+</head>
+<body>
+  <h1>Throttle Component</h1>
+  <script src="../build/build.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    throttle = require('throttle');
+    
+    window.onscroll = throttle(scroll, 100);
+
+    function scroll() {
+      console.log('y', window.scrollY);
+    }
+
+  </script>
+</body>
+</html>
